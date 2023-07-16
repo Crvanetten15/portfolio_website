@@ -1,0 +1,27 @@
+.tech-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.inside-box {
+  width: 70%;
+  background-color: brown;
+  height: 200px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+}
+
+.tech-item {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  border-radius: 50px;
+}

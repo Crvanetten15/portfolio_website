@@ -1,0 +1,42 @@
+.splash-container {
+  padding-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 15%;
+}
+.splash-container > *{
+  margin: 50px;
+}
+
+.dev-img {
+  width: 250px;
+
+}
+
+.text-section {
+  width: 50%;
+}
+
+.imp-links {
+  display:flex;
+  width: 100%;
+  justify-content: center;
+
+}
+.imp-links > * {
+  margin: 20px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ff0000;
+  border-radius: 10px;
+  font-size: 2em;
+}
+
+.imp-links > *:hover {
+  border: 1px solid blue;
+  cursor: pointer;
+}

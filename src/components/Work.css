@@ -1,0 +1,29 @@
+.work-grid-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-grid {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.project-item {
+  height: 150px;
+  width: 250px;
+  background-color: aquamarine;
+  border-radius: 10px;
+  margin: 15px;
+}
+
+.work-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3%;
+}
+.work-text > * {
+  text-align: center;
+}

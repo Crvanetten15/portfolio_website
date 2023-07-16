@@ -1,0 +1,16 @@
+.area-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.shifted-box {
+  width: 70%;
+  height: 600px;
+  background-color: aqua;
+  border-radius: 10px;
+  position: relative;
+  top: -100px;
+  box-shadow: 3px 3px 3px 3px #888888;
+}

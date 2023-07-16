@@ -1,0 +1,13 @@
+.section-about {
+  display:flex;
+  justify-content: center;
+  /* align-items: center; */
+  background-color: orange;
+  min-height: 500px;
+}
+
+.actual-text {
+  padding-top: 150px;
+  width: 50%;
+  text-align: center;
+}
