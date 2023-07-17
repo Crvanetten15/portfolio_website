@@ -6,6 +6,7 @@ import About from './components/About';
 import Areas from './components/Areas';
 import Work from './components/Work';
 import Stack from './components/Stack';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
       <Areas />
       <Work />
       <Stack />
-
+      <Footer />
     </>
   );
 }
